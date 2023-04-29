@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/Header';
+import Main from './components/Header/Header';
 function App() {
   return (
     <div className="App">

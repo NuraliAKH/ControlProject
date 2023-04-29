@@ -1,10 +1,11 @@
 import React from 'react'
+import {BiSearch} from 'react-icons/bi'
+import {BsFillPersonFill} from 'react-icons/bs'
 import './style.css'
 export default function Main() {
   return (
     <div>
       <header>
-        <div id="menu-bar" className="fas fa-bars"></div>
 
         <a href="#" className="logo"><span>T</span>ravel</a>
 
@@ -17,11 +18,10 @@ export default function Main() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <div className="icons">
-          <i className="fas fa-search" id="search-btn"></i>
-          <i className="fas fa-user login-btn"></i>
+        <div className="icons d-flex">
+          <p><BiSearch/></p>
+          <p><BsFillPersonFill/></p>
         </div>
-
         <form action="" className="search-bar-container">
           <input type="search" id="search-bar" placeholder="search here..." />
           <label for="search-bar" className="fas fa-search"></label>

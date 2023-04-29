@@ -6,7 +6,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9%;
+  padding: 0 9%;
 }
 
 header .logo{
@@ -14,33 +14,38 @@ header .logo{
   font-weight: bolder;
   color:#fff;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.logo:hover{
+  color: #fff;
 }
 
 header .logo span{
-  color:var(--orange);
+  color:orange;
 }
 
 header .navbar a{
+  transition: all ease-in-out .5s;
   color:#fff;
-  font-size: 2rem;
-  margin:0 .8rem;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
 }
 
 header .navbar a:hover{
-  color:var(--orange);
+  color:orange;
 }
 
-header .icons i{
-  font-size: 2.5rem;
+header .icons p{
+  transition: all ease .5s;
+  font-size: 2rem;
   color:#fff;
   cursor: pointer;
   margin-right: 2rem;
 }
-
-header .icons i:hover{
-  color:var(--orange);
+header .icons p:hover{
+  color: orange;
 }
-
 header .search-bar-container{
   position: absolute;
   top:100%; left: 0; right:0;
