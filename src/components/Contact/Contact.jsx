@@ -4,8 +4,8 @@ import Rasm from '../images/contact-img.svg'
 
 export default function Contact() {
   return (
-    <section class="contact container" id="contact">
-      <h1 class="heading">
+    <section className="contact container" id="contact">
+      <h1 className="heading">
         <span>C</span>
         <span>o</span>
         <span>n</span>
