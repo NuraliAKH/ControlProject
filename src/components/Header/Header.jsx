@@ -1,10 +1,14 @@
 import React from 'react'
-import {BiSearch} from 'react-icons/bi'
-import {BsFillPersonFill} from 'react-icons/bs'
+import { BiSearch } from 'react-icons/bi'
+import { BsFillPersonFill } from 'react-icons/bs'
 import './style.css'
 export default function Main() {
+  function searchToggle() {
+
+  }
   return (
     <div>
+
       <header>
 
         <a href="#" className="logo"><span>T</span>ravel</a>
@@ -19,13 +23,14 @@ export default function Main() {
         </nav>
 
         <div className="icons d-flex">
-          <p><BiSearch/></p>
-          <p><BsFillPersonFill/></p>
+          <p className='search-input'>
+            <input type="text"/>
+            <BiSearch />
+          </p>
+          <p><BsFillPersonFill /></p> 
+
         </div>
-        <form action="" className="search-bar-container">
-          <input type="search" id="search-bar" placeholder="search here..." />
-          <label for="search-bar" className="fas fa-search"></label>
-        </form>
+
       </header>
     </div>
   )

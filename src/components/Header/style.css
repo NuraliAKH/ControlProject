@@ -46,38 +46,24 @@ header .icons p{
 header .icons p:hover{
   color: orange;
 }
-header .search-bar-container{
-  position: absolute;
-  top:100%; left: 0; right:0;
-  padding:1.5rem 2rem;
-  background:#333;
-  border-top: .1rem solid rgba(255,255,255,.2);
+
+.search-input{
   display: flex;
-  align-items: center;
-  z-index: 1001;
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  background-color: #333;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #333;
 }
-
-header .search-bar-container.active{
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+.search-input input{
+  width: 150px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #333;
+  border: none;
+  outline: none;
 }
-
-header .search-bar-container #search-bar{
-  width:100%;
-  padding:1rem;
-  text-transform: none;
-  color:#333;
-  font-size: 1.7rem;
-  border-radius: .5rem;
-}
-
-header .search-bar-container label{
-  color:#fff;
-  cursor: pointer;
-  font-size: 3rem;
-  margin-left: 1.5rem;
-}
-
-header .search-bar-container label:hover{
-  color:var(--orange);
+.search-input:hover{
+  border: 1px solid #fff;
 }
