@@ -1,0 +1,16 @@
+.heading{
+  text-align: center;
+  padding:2.5rem 0 1.5rem 0;
+}
+
+.heading span{
+  background:rgba(255, 165, 0,.2);
+  color: orange;
+  border-radius: .5rem;
+  padding:.2rem .8rem;
+  margin: 0 .1rem;
+}
+
+.heading span.space{
+  background:none;
+}
