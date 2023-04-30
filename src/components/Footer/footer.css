@@ -11,29 +11,29 @@
   margin-left: 12%;
 }
 
-.footer .box-container .box {
+.footer .box-container .box-footer {
   padding: 1rem 0;
   flex: 1 1 20rem;
 }
 
-.footer .box-container .box h3 {
+.footer .box-container .box-footer h3 {
   font-size: 2rem;
   padding: 0.7rem 0;
   color: #fff;
 }
 
-.footer .box-container .box h3 span {
+.footer .box-container .box-footer h3 span {
   color: #ffa500;
 }
 
-.footer .box-container .box p {
+.footer .box-container .box-footer p {
   font-size: 1rem;
   padding: 0.7rem 0;
   color: #eee;
   line-height: 30px;
 }
 
-.footer .box-container .box a {
+.footer .box-container .box-footer a {
   display: block;
   font-size: 1.2rem;
   padding: 0.7rem 0;
@@ -42,7 +42,7 @@
   text-decoration:none;
 }
 
-.footer .box-container .box a:hover {
+.footer .box-container .box-footer a:hover {
   color: orange;
 }
 
