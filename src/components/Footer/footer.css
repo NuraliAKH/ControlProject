@@ -8,16 +8,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 4.5rem;
-  margin-left: 30px;
+  margin-left: 12%;
 }
 
 .footer .box-container .box {
   padding: 1rem 0;
-  flex: 1 1 25rem;
+  flex: 1 1 20rem;
 }
 
 .footer .box-container .box h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 0.7rem 0;
   color: #fff;
 }
@@ -27,7 +27,7 @@
 }
 
 .footer .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.7rem 0;
   color: #eee;
   line-height: 30px;
@@ -35,19 +35,20 @@
 
 .footer .box-container .box a {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 0.7rem 0;
   color: #eee;
+  align-items: start !important;
+  text-decoration:none;
 }
 
 .footer .box-container .box a:hover {
   color: orange;
-  text-decoration: underline;
 }
 
 .footer .credit {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: normal;
