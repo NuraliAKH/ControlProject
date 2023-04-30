@@ -1,0 +1,37 @@
+
+
+.services .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.services .box-container .box{
+  flex: 1 1 17rem;
+  border-radius: .5rem;
+  padding:.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.services .box-container .box i{
+  padding:1rem;
+  font-size: 3rem;
+  color:orange;
+}
+
+.services .box-container .box h3{
+  font-size: 1.7rem;
+  color:#333;
+}
+
+.services .box-container .box p{
+  font-size: 0.9rem;
+  color:#666;
+  padding:.5rem 0;
+  transition: ease-in-out .3s;
+}
+
+.services .box-container .box:hover{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
