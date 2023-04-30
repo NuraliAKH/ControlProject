@@ -1,14 +1,14 @@
 import './App.css';
-import Main from './components/Header/Header';
-import Scrole_title from './components/Scrole/Scrole_title';
+import Servises from './components/Servises/Servises'
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      
-=======
-      <Scrole_title/>
->>>>>>> c6f2398a15c0195a3122e42a969959723397aa42
+      <Servises/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
