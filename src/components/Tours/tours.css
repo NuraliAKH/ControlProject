@@ -1,0 +1,54 @@
+.packages .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.packages .box-container .salom{
+  flex:1 1 19rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.packages .box-container .salom img{
+  height: 15rem;
+  width:100%;
+  object-fit: cover;
+}
+
+.packages .box-container .salom .content{
+  padding:2rem;
+}
+
+.packages .box-container .salom .content h3{
+  font-size:2rem;
+  color:#333;
+}
+
+.packages .box-container .salom .content h3 i{
+  color:orange;
+}
+
+.packages .box-container .salom .content p{
+  font-size:1rem;
+  color:#666;
+  padding:rem 0;
+}
+
+.packages .box-container .salom .content .stars i{
+  font-size:1rem;
+  color:orange;
+}
+
+.packages .box-container .salom .content .price{
+  font-size: 1rem;
+  color:#333;
+  padding-top: 1rem;
+}
+
+.packages .box-container .salom .content .price span{
+  color:#666;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
