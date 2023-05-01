@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <section className="footer">
       <div className="container box-container ">
-        <div className="box">
+        <div className="box1">
           <h3>
             <span>T</span>RAVEL numbers
           </h3>
@@ -26,7 +26,7 @@ export default function Footer() {
             <i className="fas fa-phone-alt me-3"></i> +998 97 777 77 77{" "}
           </a>
         </div>
-        <div className="box">
+        <div className="box1">
           <h3>Branch locations</h3>
           <a href="#">
             {" "}
@@ -45,7 +45,7 @@ export default function Footer() {
             <i className="fas fa-map-marker-alt me-3"></i> Uzbekistan
           </a>
         </div>
-        <div className="box">
+        <div className="box1">
           <h3>Follow us</h3>
           <a href="#">
             {" "}
