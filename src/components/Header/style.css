@@ -67,3 +67,27 @@ header .icons p:hover{
 .search-input:hover{
   border: 1px solid #fff;
 }
+.Modal{
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25px;
+  border: 2px solid orange;
+  background-image: url("../images/map3.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+}
+.Modal button{
+  width: 100%;
+  padding: 5px;
+  background-color: orange;
+  margin-bottom: 15px;
+}
+.Modal p span{
+  color: orange;
+  cursor: pointer;
+}
