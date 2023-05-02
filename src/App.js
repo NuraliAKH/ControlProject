@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Tours from './components/Tours/Tours';
 import Header from './components/Header/Header';
+import Asia from './components/Obshiy/Asia/Asia';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       <Scrole_title/>
       <Encient/>
       <Tours/>
-      <Servises/>
       <Contact/>
+      <Servises/>
       <Footer/>
     </div>
   );
