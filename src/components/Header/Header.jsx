@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BiSearch } from 'react-icons/bi'
 import { BsFillPersonFill } from 'react-icons/bs'
+import Modal from 'react-modal';
 import './style.css'
-export default function Main() {
-  function searchToggle() {
+Modal.setAppElement('#root');
 
+export default function Main() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  function openModal() {
+    setModalIsOpen(true);
+  }
+
+  function closeModal() {
+    setModalIsOpen(false);
   }
   return (
     <div>
@@ -24,10 +32,19 @@ export default function Main() {
 
         <div className="icons d-flex">
           <p className='search-input'>
-            <input type="text"/>
-            <BiSearch />
+            <input type="text" />
+            <BiSearch/>
           </p>
-          <p><BsFillPersonFill /></p> 
+          <p onClick={openModal}><BsFillPersonFill /></p>
+          <Modal className="Modal" isOpen={modalIsOpen} onRequestClose={closeModal}>
+            <h2>Log-in</h2>
+            <input className='form-control' type="text" placeholder='enter your email'/>
+            <input className='form-control my-3' type="password" placeholder='enter your password'/>
+            <button onClick={closeModal}>Login Now</button>
+            <p className='text-start'>forget password? <span>click here</span></p>
+            <p className='text-start'>don't have and account? <span>register now</span></p>
+
+          </Modal>
 
         </div>
 
