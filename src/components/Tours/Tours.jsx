@@ -156,9 +156,9 @@ export default function Tours() {
               {" "}
               5.600som <span>2.500.000som</span>{" "}
             </div>
-            <a href="HTML/disney.html" className="btn btn-warning">
+            <Link to={"/disnayland"}><a href="" className="btn btn-warning">
               More
-            </a>
+            </a></Link>
           </div>
         </div>
 
