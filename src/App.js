@@ -6,19 +6,19 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Tours from './components/Tours/Tours';
 import Header from './components/Header/Header';
+import Asia from './components/Obshiy/Asia/Asia';
 import Disnayland from './components/Obshiy/Disnayland/Disnayland';
 
 function App() {
   return (
     <div className="App g-0">
-      {/* <Header/>
+      <Header/>
       <Scrole_title/>
       <Encient/>
       <Tours/>
-      <Servises/>
       <Contact/>
-      <Footer/> */}
-      <Disnayland/>
+      <Servises/>
+      <Footer/>
     </div>
   );
 }

@@ -14,10 +14,25 @@ import img12 from '../images/sydney.jpg'
 import './Encient.css'
 export default function Encient() {
     return (
-        <div className='container'>
+        <div className='container' id='encient'>
 
-            <div className="row my-3">
-                <h1>Encient Places</h1>
+            <div className="row my-3" >
+                <h1 className='Margintop'><h1 class="heading">
+            <span>A</span>
+            <span>n</span>
+            <span>c</span>
+            <span>i</span>
+            <span>e</span>
+            <span>n</span>
+            <span>t</span>
+            <br/><br/>
+            <span>P</span>
+            <span>l</span>
+            <span>a</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1></h1>
                 <div className="col-3">
                     <div className='box'>
 

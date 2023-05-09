@@ -23,18 +23,13 @@ export default function Main() {
 
         <nav className="navbar">
           <a href="#home">Home</a>
-          <a href="#gallery">Gallery</a>
+          <a href="#encient">Encient Places</a>
           <a href="#packages">Tours</a>
-          <a href="#book">Book</a>
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </nav>
 
         <div className="icons d-flex">
-          <p className='search-input'>
-            <input type="text" />
-            <BiSearch/>
-          </p>
           <p onClick={openModal}><BsFillPersonFill /></p>
           <Modal className="Modal" isOpen={modalIsOpen} onRequestClose={closeModal}>
             <h2>Log-in</h2>

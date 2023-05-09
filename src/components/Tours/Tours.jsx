@@ -6,7 +6,7 @@ import rasm3 from "../images/p-3.jpg";
 import rasm4 from "../images/uzbflag.png";
 import rasm5 from "../images/disney.png";
 import rasm6 from "../images/g-9.jpg";
-
+import { Link } from "react-router-dom";
 export default function Tours() {
   return (
     <section className="packages container" id="packages">
@@ -70,10 +70,11 @@ export default function Tours() {
               {" "}
               5.600som <span>2.500.000som</span>{" "}
             </div>
-            <a href="HTML/asia.html" className="btn btn-warning">
+            <Link to={"/asia"}>
+            <a href="" className="btn btn-warning">
               {" "}
               More
-            </a>
+            </a></Link>
           </div>
         </div>
 
@@ -155,9 +156,9 @@ export default function Tours() {
               {" "}
               5.600som <span>2.500.000som</span>{" "}
             </div>
-            <a href="HTML/disney.html" className="btn btn-warning">
+            <Link to={"/disnayland"}><a href="" className="btn btn-warning">
               More
-            </a>
+            </a></Link>
           </div>
         </div>
 

@@ -9,27 +9,27 @@
 }
 
 .services .box-container .box{
-  flex: 1 1 17rem;
+  flex: 1 1 29rem;
   border-radius: .5rem;
   padding:.5rem;
   text-align: center;
   cursor: pointer;
-  height: 16rem;
+  height: 20rem;
 }
 
 .services .box-container .box i{
   padding:1rem;
-  font-size: 3rem;
+  font-size: 5rem;
   color:orange;
 }
 
 .services .box-container .box h3{
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   color:#333;
 }
 
 .services .box-container .box p{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color:#666;
   padding:.5rem 0;
   transition: ease-in-out .3s;

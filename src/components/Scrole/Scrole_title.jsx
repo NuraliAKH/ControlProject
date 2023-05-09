@@ -36,7 +36,7 @@ export default function Scrole_title() {
         setModalIsOpen(false);
     }
     return (
-        <div>
+        <div id='home'>
             <Carousel responsive={responsive} showDots={true} autoPlay={true} infinite={true}>
                 <div><video autoPlay muted><source src={Vid1} type="video/mp4" /></video></div>
                 <div><video autoPlay muted><source src={Vid2} type="video/mp4" /></video></div>
