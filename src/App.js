@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer';
 import Tours from './components/Tours/Tours';
 import Header from './components/Header/Header';
 import Asia from './components/Obshiy/Asia/Asia';
-import Disnayland from './components/Obshiy/Disnayland/Disnayland';
 
 function App() {
   return (
